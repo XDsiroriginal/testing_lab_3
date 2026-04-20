@@ -1,0 +1,9 @@
+{
+  "validUser": {
+    "fullName": "ЙЦУфывячс",
+    "email": "testuser_${timestamp}@example.com",
+    "login": "testuser_${timestamp}",
+    "password": "Password1",
+    "confirmPassword": "Password1"
+  }
+}
