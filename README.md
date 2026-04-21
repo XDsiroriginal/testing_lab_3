@@ -15,3 +15,9 @@ npm install cypress --save-dev
 ```bash
 npx cypress open
 ```
+> [!WARNING]
+> если у вас ошибка cy.visit() failed trying to load: то пропишите 
+```bash
+npm config delete proxy
+npm config delete https-proxy
+```
