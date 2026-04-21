@@ -15,8 +15,8 @@ describe('создание ЛК работодателя', () => {
             .should('be.visible')
             .should('not.be.disabled')
             .click();
-        cy.get('div').contains('p', 'Я являюсь представителем коммерческой организации').should('not.be.disabled').click();
-        cy.get('div').contains('p', 'Создание нового личного кабинета работодателя').should('not.be.disabled').click();
+        cy.get('div').contains('p', 'Я являюсь представителем образовательной организации').should('not.be.disabled').click();
+        cy.get('div').contains('p', 'Создание нового личного кабинета ОУ').should('not.be.disabled').click();
 
         cy.get('[placeholder="Название вашей организации"]').type('New workersы');
         cy.get('[placeholder="Адрес вашей организации"]').type('Уличка пушкина а дом калатушкаина');
@@ -38,8 +38,8 @@ describe('создание ЛК работодателя', () => {
             .should('be.visible')
             .should('not.be.disabled')
             .click();
-        cy.get('div').contains('p', 'Я являюсь представителем коммерческой организации').should('not.be.disabled').click();
-        cy.get('div').contains('p', 'Создание нового личного кабинета работодателя').should('not.be.disabled').click();
+        cy.get('div').contains('p', 'Я являюсь представителем образовательной организации').should('not.be.disabled').click();
+        cy.get('div').contains('p', 'Создание нового личного кабинета ОУ').should('not.be.disabled').click();
 
     });
 });
