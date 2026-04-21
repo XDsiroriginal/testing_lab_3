@@ -1,4 +1,4 @@
-describe('создание ЛК работодателя', () => {
+describe('создание ЛК образовательной организации', () => {
     const LOGIN_URL = 'https://dev.profteam.su/login';
 
     beforeEach(() => {
