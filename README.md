@@ -1,7 +1,7 @@
 # Как запустить
 ## 1. клонировать проект
 ```bash
-git clone https://github.com/XDsiroriginal/testing_lab_2.git
+git clone https://github.com/XDsiroriginal/testing_lab_3.git
 ```
 ## 2. инициализировать Node.js
 ```bash
